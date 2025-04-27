@@ -1,0 +1,213 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: ./run/john shadow.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Autotune found best speed at MKPC of 8 (2 * 4)
+0:00:00:00 - Hash type: krb5-18, Kerberos 5 DB etype 18 (min-len 0, max-len 21 [worst case UTF-8] to 64 [ASCII])
+0:00:00:00 - Algorithm: DES / PBKDF2-SHA1 128/128 ASIMD 4x AES
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 64 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 8
+0:00:00:00 Proceeding with "single crack" mode
+0:00:00:00 - SingleWordsPairMax used is 6
+0:00:00:00 - SingleRetestGuessed = true
+0:00:00:00 - SingleMaxBufferSize = 4 GiB
+0:00:00:00 - SinglePrioResume = N (prioritize speed over resumability)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 1719 preprocessed word mangling rules
+0:00:00:00 - Allocated 1 buffer of 8 candidate passwords (total 128 KiB)
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:00 - No information to base candidate passwords on
+0:00:00:00 - Processing the remaining buffered candidate passwords, if any
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: Wordlist
+0:00:00:00 - Wordlist file: ./run/password.lst
+0:00:00:00 - Memory mapping wordlist (15327454 bytes)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 3068 preprocessed word mangling rules
+0:00:00:00 Enabling duplicate candidate password suppressor using 256 MiB
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:40:12 Passwords tested: 157600 (all time)
+0:00:40:12  dupe suppressor: 157608 accepted, 0 rejected out of total 157608 (while active during this run)
+0:00:40:12 Session aborted
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Cost 1 (iteration count) is 100000 for all loaded hashes
+0:00:00:00 Command line: ./run/john shadow.txt --format=pbkdf2-hmac-sha256 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Autotune found best speed at MKPC of 4 (1 * 4)
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 128/128 ASIMD 4x
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 8
+0:00:00:00 Proceeding with "single crack" mode
+0:00:00:00 - SingleWordsPairMax used is 6
+0:00:00:00 - SingleRetestGuessed = true
+0:00:00:00 - SingleMaxBufferSize = 4 GiB
+0:00:00:00 - SinglePrioResume = N (prioritize speed over resumability)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 1719 preprocessed word mangling rules
+0:00:00:00 - Allocated 1 buffer of 8 candidate passwords (total 129 KiB)
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:00 - No information to base candidate passwords on
+0:00:00:00 - Processing the remaining buffered candidate passwords, if any
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: Wordlist
+0:00:00:00 - Wordlist file: ./run/password.lst
+0:00:00:00 - Memory mapping wordlist (15327454 bytes)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 3068 preprocessed word mangling rules
+0:00:00:00 Enabling duplicate candidate password suppressor using 256 MiB
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:25 + Cracked ?
+0:00:00:25 Passwords tested: 56 (all time)
+0:00:00:25  dupe suppressor: 56 accepted, 0 rejected out of total 56 (while active during this run)
+0:00:00:25 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 2 password hashes with 2 different salts
+0:00:00:00 Remaining 1 password hash
+0:00:00:00 Cost 1 (iteration count) is 100000 for all remaining hashes
+0:00:00:00 Command line: ./run/john shadow.txt --format=pbkdf2-hmac-sha256 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Autotune found best speed at MKPC of 4 (1 * 4)
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 128/128 ASIMD 4x
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 8
+0:00:00:00 Proceeding with "single crack" mode
+0:00:00:00 - SingleWordsPairMax used is 6
+0:00:00:00 - SingleRetestGuessed = true
+0:00:00:00 - SingleMaxBufferSize = 4 GiB
+0:00:00:00 - SinglePrioResume = N (prioritize speed over resumability)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 1719 preprocessed word mangling rules
+0:00:00:00 - Allocated 1 buffer of 8 candidate passwords (total 129 KiB)
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:00 - No information to base candidate passwords on
+0:00:00:00 - Processing the remaining buffered candidate passwords, if any
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: Wordlist
+0:00:00:00 - Wordlist file: ./run/password.lst
+0:00:00:00 - Memory mapping wordlist (15327454 bytes)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 3068 preprocessed word mangling rules
+0:00:00:00 Enabling duplicate candidate password suppressor using 256 MiB
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:20:30 + Cracked ?
+0:00:20:30 Passwords tested: 2672 (all time)
+0:00:20:30  dupe suppressor: 2672 accepted, 0 rejected out of total 2672 (while active during this run)
+0:00:20:30 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 3 password hashes with 3 different salts
+0:00:00:00 Remaining 1 password hash
+0:00:00:00 Cost 1 (iteration count) is 100000 for all remaining hashes
+0:00:00:00 Command line: ./run/john shadow.txt --format=pbkdf2-hmac-sha256 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Autotune found best speed at MKPC of 4 (1 * 4)
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 128/128 ASIMD 4x
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 8
+0:00:00:00 Proceeding with "single crack" mode
+0:00:00:00 - SingleWordsPairMax used is 6
+0:00:00:00 - SingleRetestGuessed = true
+0:00:00:00 - SingleMaxBufferSize = 4 GiB
+0:00:00:00 - SinglePrioResume = N (prioritize speed over resumability)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 1719 preprocessed word mangling rules
+0:00:00:00 - Allocated 1 buffer of 8 candidate passwords (total 129 KiB)
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:00 - No information to base candidate passwords on
+0:00:00:00 - Processing the remaining buffered candidate passwords, if any
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: Wordlist
+0:00:00:00 - Wordlist file: ./run/password.lst
+0:00:00:00 - Memory mapping wordlist (15327454 bytes)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 3068 preprocessed word mangling rules
+0:00:00:00 Enabling duplicate candidate password suppressor using 256 MiB
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:03 + Cracked ?
+0:00:00:03 Passwords tested: 8 (all time)
+0:00:00:03  dupe suppressor: 8 accepted, 0 rejected out of total 8 (while active during this run)
+0:00:00:03 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 5 password hashes with 5 different salts
+0:00:00:00 Sorting salts, for deterministic salt-resume
+0:00:00:00 Remaining 2 password hashes with 2 different salts
+0:00:00:00 Cost 1 (iteration count) is 100000 for all remaining hashes
+0:00:00:00 Command line: ./run/john shadow.txt --format=pbkdf2-hmac-sha256 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Autotune found best speed at MKPC of 4 (1 * 4)
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 128/128 ASIMD 4x
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 8
+0:00:00:00 Proceeding with "single crack" mode
+0:00:00:00 - SingleWordsPairMax used is 6
+0:00:00:00 - SingleRetestGuessed = true
+0:00:00:00 - SingleMaxBufferSize = 4 GiB
+0:00:00:00 - SinglePrioResume = N (prioritize speed over resumability)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 1719 preprocessed word mangling rules
+0:00:00:00 - Allocated 2 buffers of 8 candidate passwords each (total 258 KiB)
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:00 - No information to base candidate passwords on
+0:00:00:00 - Processing the remaining buffered candidate passwords, if any
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: Wordlist
+0:00:00:00 - Wordlist file: ./run/password.lst
+0:00:00:00 - Memory mapping wordlist (15327454 bytes)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 3068 preprocessed word mangling rules
+0:00:00:00 Enabling duplicate candidate password suppressor using 256 MiB
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:56:34 + Cracked ?
+1:04:39:18 Passwords tested: 172208 (all time)
+1:04:39:18  dupe suppressor: 172212 accepted, 0 rejected out of total 172212 (while active during this run)
+1:04:39:18 Session aborted
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 5 password hashes with 5 different salts
+0:00:00:00 Remaining 1 password hash
+0:00:00:00 Cost 1 (iteration count) is 100000 for all remaining hashes
+0:00:00:00 Command line: ./run/john shadow.txt --format=pbkdf2-hmac-sha256 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Autotune found best speed at MKPC of 4 (1 * 4)
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 128/128 ASIMD 4x
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 8
+0:00:00:00 Proceeding with "single crack" mode
+0:00:00:00 - SingleWordsPairMax used is 6
+0:00:00:00 - SingleRetestGuessed = true
+0:00:00:00 - SingleMaxBufferSize = 4 GiB
+0:00:00:00 - SinglePrioResume = N (prioritize speed over resumability)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 1719 preprocessed word mangling rules
+0:00:00:00 - Allocated 1 buffer of 8 candidate passwords (total 129 KiB)
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:00 - No information to base candidate passwords on
+0:00:00:00 - Processing the remaining buffered candidate passwords, if any
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: Wordlist
+0:00:00:00 - Wordlist file: ./run/password.lst
+0:00:00:00 - Memory mapping wordlist (15327454 bytes)
+0:00:00:00 - No stacked rules
+0:00:00:00 - 3068 preprocessed word mangling rules
+0:00:00:00 Enabling duplicate candidate password suppressor using 256 MiB
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:27:20 + Cracked ?
+0:00:27:20 Passwords tested: 3548 (all time)
+0:00:27:20  dupe suppressor: 3548 accepted, 0 rejected out of total 3548 (while active during this run)
+0:00:27:20 Session completed
